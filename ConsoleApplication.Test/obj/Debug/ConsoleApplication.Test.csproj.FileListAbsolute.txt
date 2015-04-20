@@ -1,0 +1,7 @@
+c:\users\radek\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication.Test\bin\Debug\ConsoleApplication.Test.dll
+c:\users\radek\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication.Test\bin\Debug\ConsoleApplication.Test.pdb
+c:\users\radek\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication.Test\bin\Debug\ConsoleApplication1.exe
+c:\users\radek\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication.Test\bin\Debug\ConsoleApplication1.pdb
+c:\users\radek\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication.Test\obj\Debug\ConsoleApplication.Test.csprojResolveAssemblyReference.cache
+c:\users\radek\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication.Test\obj\Debug\ConsoleApplication.Test.dll
+c:\users\radek\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication.Test\obj\Debug\ConsoleApplication.Test.pdb
