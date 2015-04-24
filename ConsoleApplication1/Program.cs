@@ -7,24 +7,27 @@ using System.IO;
 
 namespace ConsoleApplication1
 {
-   public class Calculator
+public class Calculator
+{
+    public static int Main(string[] args)
     {
-       public static int Main(string[] args)
-       {
-           return 0;
-       }
-        public static int Add(string Stream)
-        {
-            string stream = Stream;
-            string num1,num2;
-            string [] split = stream.Split(new Char[] { ' ', ' ' });            
-            num1 = split[0];
-            num2 = split[2];
-            if (num1 == "" && num2 == "")
-            {
-                return 0;
-            }
-            return Int32.Parse(num1)+ Int32.Parse(num2);
-        }
+        //Console.Write("Please,put some numbers like a [1,1]");
+        //string date = Console.ReadLine();
+        //Console.Write("Result: %1", Add(date));
+        //Console.ReadKey();
+        return 0;
     }
+    public static int Add(string stream)
+    {
+        if (String.IsNullOrEmpty(stream)) return 0;
+        string [] split = stream.Split(',');
+        List<int> numberList = new List<int>();
+        foreach (var item in split)//foreach C#
+        {
+            numberList.Add(Int32.Parse(item));
+        }
+        numberList.All(item => Int32.MinValue);
+        return numberList.Sum(number => number);//LINQ
+    }
+}
 }
