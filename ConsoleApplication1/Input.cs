@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    public class Program
-    {
-        public static int Main(string[] args)
+    public class Input {       
+        public string[] SplitInput(string input)
         {
-           
-            return 0;
+            return input.Split(',', '\n');
         }
     }
 }

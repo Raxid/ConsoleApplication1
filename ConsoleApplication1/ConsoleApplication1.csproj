@@ -41,7 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adder.cs" />
+    <Compile Include="Input.cs" />
+    <Compile Include="NumberParser.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="StringCalculator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
